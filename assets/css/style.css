@@ -1,0 +1,210 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  src: url(../../vendors/fonts/Saira_Extra_Condensed/SairaExtraCondensed-Bold.ttf);
+  font-family: Saira Extra Condensed Bold;
+}
+@font-face {
+  src: url(../../vendors/fonts/Saira_Extra_Condensed/SairaExtraCondensed-Medium.ttf);
+  font-family: Saira Extra Condensed Medium;
+}
+@font-face {
+  src: url(../../vendors/fonts/Muli/Muli-Italic-VariableFont_wght.ttf);
+  font-family: Muli;
+}
+
+.fas {
+  font-size: 1.8rem;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.fa-github {
+  font-size: 4rem;
+}
+
+.fa-facebook {
+  font-size: 4rem;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+.introduce-myself {
+  height: 100%;
+  margin-right: 5%;
+}
+
+.introduce-myself h1 {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 5.5rem;
+  font-family: Saira Extra Condensed Bold;
+  color: #0056b3;
+}
+
+.welcome-heading {
+  margin-top: 4%;
+  font-family: Muli;
+  font-size: 1.2rem;
+}
+
+.sub-information {
+  font-family: Saira Extra Condensed Medium;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.skills {
+  font-family: Muli;
+  font-size: 1.2rem;
+}
+
+.heading-experience .title-experience {
+  font-family: Saira Extra Condensed Bold;
+  color: #0056b3;
+}
+.heading-experience .content-experience {
+  font-family: Muli;
+  font-size: 1.2rem;
+}
+
+.bookmark::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f02e";
+  font-weight: 400;
+  color: #fec134;
+}
+
+.heading-education .title-education {
+  font-family: Saira Extra Condensed Bold;
+  color: #0056b3;
+}
+
+.heading-education .content-education {
+  font-family: Muli;
+  font-size: 1.2rem;
+}
+
+.title-programming-skills {
+  font-family: Saira Extra Condensed Bold;
+  color: #0056b3;
+}
+
+.colored {
+  font-size: 5rem;
+}
+
+.title-project {
+  font-family: Saira Extra Condensed Bold;
+  color: #0056b3;
+}
+
+.content-project {
+  font-family: Muli;
+  font-size: 1.2rem;
+}
+
+.theend {
+  margin-top: 7rem;
+}
+
+.title-theend {
+  font-family: Saira Extra Condensed Bold;
+}
+
+.content-theend {
+  font-family: Muli;
+  font-size: 1.2rem;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+#sideNav {
+  font-family: Saira Extra Condensed Bold;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  .sidebar {
+    position: fixed;
+    height: 100%;
+    background-color: #0056b3;
+    font-family: Muli;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .content {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .content {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 732px) {
+  .content {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin-left: 3%;
+    margin-top: 15%;
+  }
+}
