@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -9,6 +10,7 @@ body {
 p {
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
 
 @font-face {
@@ -51,6 +53,7 @@ p {
   height: 100%;
   margin-left: 25%;
   margin-top: 3%;
+  margin-right: 5%;
 }
 
 .introduce-myself {
@@ -130,11 +133,12 @@ p {
 }
 
 .theend {
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
 }
 
 .title-theend {
   font-family: Saira Extra Condensed Bold;
+  color: #0056b3;
 }
 
 .content-theend {
@@ -155,7 +159,14 @@ p {
   color: white;
 }
 
+#about {
+  padding-top: 2%;
+}
+
 @media only screen and (min-width: 992px) {
+  html {
+    scroll-behavior: smooth;
+  }
   #sideNav {
     text-align: center;
     position: fixed;
@@ -190,12 +201,22 @@ p {
 }
 
 @media only screen and (max-width: 992px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .content {
     background-color: white;
     width: 80%;
     height: 100%;
     margin-left: 3%;
-    margin-top: 10%;
+  }
+  #about {
+    margin-top: 0;
+    padding-top: 10%;
+  }
+
+  #experience {
+    margin-top: 0;
   }
 }
 
@@ -206,5 +227,14 @@ p {
     height: 100%;
     margin-left: 3%;
     margin-top: 15%;
+  }
+
+  #about {
+    margin-top: 0;
+    padding-top: 15%;
+  }
+
+  .content h1 {
+    font-size: 3rem;
   }
 }
