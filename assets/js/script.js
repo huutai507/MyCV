@@ -1,3 +1,2 @@
-let a = 1;
-let b = 1;
-const f = () => {};
+console.log("hihi");
+console.log("hihi");
